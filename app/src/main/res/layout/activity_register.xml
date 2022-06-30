@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/signup_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Full Name"
+                android:textColorHint="#000000"
+                android:inputType="none"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/signup_usrname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Username"
+                android:textColorHint="#000000"
+                android:inputType="none"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Email"
+                android:textColorHint="#000000"
+                android:inputType="none"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Password"
+                android:textColorHint="#000000"
+                android:inputType="none"
+                android:password="true"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/signup_confirm_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Confirm Password"
+                android:textColorHint="#000000"
+                android:inputType="none"
+                android:password="true"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1B1A1A"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="REGISTER"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/link_signin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center|bottom"
+                android:text="I am a Member"
+                android:textColor="#F8E7EE"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

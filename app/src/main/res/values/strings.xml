@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HealthEdu</string>
+    <string name="title_activity_tab">HealthEdu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="blogs">Blogs</string>
+    <string name="profile">Profile</string>
+</resources>
